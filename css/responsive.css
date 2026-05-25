@@ -1,0 +1,62 @@
+/* =========================
+   MOBILE FIX (FINAL STABLE)
+========================= */
+
+@media (max-width: 991px) {
+
+    /* STOP FLEX ROW LAYOUT */
+    .d-flex {
+        display: block !important;
+    }
+
+    /* SIDEBAR FULL WIDTH */
+    .sidebar,
+    .inst-sidebar {
+        position: relative !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 15px !important;
+    }
+
+    /* MAIN CONTENT RESET */
+    .main-content {
+        margin-left: 0 !important;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    /* NAV LINKS STACK */
+    .nav-links-wrapper {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+
+    .nav-link {
+        font-size: 14px !important;
+        padding: 8px 10px !important;
+        margin: 5px !important;
+    }
+
+    /* TABLE FIX */
+    table {
+        display: block !important;
+        overflow-x: auto !important;
+        white-space: nowrap !important;
+        width: 100% !important;
+    }
+}
+
+/* MOBILE SMALL */
+@media (max-width: 576px) {
+
+    .nav-link {
+        font-size: 12px !important;
+    }
+
+    .main-content {
+        padding: 10px !important;
+    }
+}
