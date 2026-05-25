@@ -25,8 +25,8 @@ A web-based Learning Management System developed using PHP, MySQL, Bootstrap, HT
 5. Run the project on localhost using XAMPP
 
 ## Documentation
-- Project Report available in `/report`
-- Presentation available in `/presentation`
+- LMSProjectReport.pdf
+- LMS_Project_Presentation.pdf
 
 ## Developed By
 - Hafsa Tariq
